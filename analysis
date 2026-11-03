@@ -1,0 +1,17 @@
+# DNS Traffic Investigation
+
+## Objective
+Analyze DNS requests and responses captured using Wireshark.
+
+## Observations
+- Client IP: 10.130.244.162
+- DNS resolver: 1.1.1.1
+- Queried domain: example.com
+- DNS A request and response observed
+- DNS AAAA request and response observed
+
+## Security Analysis
+The captured packets demonstrate normal DNS resolution. No suspicious activity was identified in the four displayed DNS packets.
+
+## Conclusion
+Successfully identified DNS query types, client and server addresses, and corresponding DNS responses.
